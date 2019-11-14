@@ -45,7 +45,7 @@ Set up alias:
 
 # Build frontend
 
-    $ cargo web deploy
+    $ cargo web deploy -p frontend
 
 
 # Build container
