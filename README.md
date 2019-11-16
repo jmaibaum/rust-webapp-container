@@ -74,9 +74,8 @@ or
 
 # Remove container
 
-If creating a container doesn't work, because podman complains that there is
-already a container using that name, and then trying to remove said container
-using:
+If creating a container doesn't work, because podman complains that there exists
+a container with the same name, and then trying to remove said container using:
 
     $ podman rm <container-name>
 
