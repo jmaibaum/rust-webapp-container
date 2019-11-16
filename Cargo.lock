@@ -1211,6 +1211,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "server"
+version = "0.1.0"
+dependencies = [
+ "actix-files 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
+ "actix-web 1.0.8 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
 name = "sha1"
 version = "0.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1675,14 +1683,6 @@ dependencies = [
 name = "wasm-bindgen-shared"
 version = "0.2.54"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-
-[[package]]
-name = "webapp"
-version = "0.1.0"
-dependencies = [
- "actix-files 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
- "actix-web 1.0.8 (registry+https://github.com/rust-lang/crates.io-index)",
-]
 
 [[package]]
 name = "widestring"

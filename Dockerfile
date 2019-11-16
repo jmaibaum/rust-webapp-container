@@ -1,9 +1,9 @@
 FROM scratch
 
-ADD target/x86_64-unknown-linux-musl/release/webapp /
-ADD target/deploy/frontend.js /
-ADD target/deploy/frontend.wasm /
-ADD target/deploy/index.html /
+ADD target/x86_64-unknown-linux-musl/release/server /
+ADD target/deploy/frontend.js /static/
+ADD target/deploy/frontend.wasm /static/
+ADD target/deploy/index.html /static/
 EXPOSE 8000
 
-CMD ["/webapp"]
+CMD ["/server"]
